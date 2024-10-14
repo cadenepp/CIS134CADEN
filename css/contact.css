@@ -1,0 +1,34 @@
+#contactBanner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#contactBanner a {
+    padding-top: 25px;
+}
+
+#fillOutArea {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+  width: 100%;
+  height: 450px;
+  resize: none;
+}
+
+button {
+    width: 20%;
+    height: 25px;
+    display: block;
+    margin: auto;
+}
+
+label {
+    text-align: center;
+}
+

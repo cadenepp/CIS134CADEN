@@ -1,0 +1,90 @@
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+#HeaderImage {
+    width: 2000px;
+    height: 800px;
+    margin: none;
+}
+
+
+#banner a {
+    padding-top: 25px;
+}
+
+
+#bigContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+p {
+    text-align: center;
+    padding: 1.5%;
+}
+
+#imageArea {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+#firstImg {
+    padding-left: 5%;
+}
+
+#secondImg {
+    padding-left: 35%;
+}
+
+#thirdImage {
+    padding-left: 65%;
+}
+
+@media screen and (max-width: 500px) {
+    #HeaderImage {
+        width: 500px;
+        height: 300px;
+    }
+
+    h2 {
+        padding: 5%;
+    }
+
+    #bigContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imageArea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #firstImg {
+        padding-left: 5%;
+    }
+    
+    #secondImg {
+        padding-left: 5%;
+    }
+    
+    #thirdImage {
+        padding-left: 5%;
+    }
+
+}
+
+
+
+
+

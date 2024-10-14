@@ -1,0 +1,34 @@
+#carBanner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#carBanner a {
+    padding-top: 25px;
+}
+
+#carsIndoArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#firstDiv {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#divImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#divP {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
