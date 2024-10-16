@@ -6,9 +6,11 @@
 }
 
 #HeaderImage {
-    width: 2000px;
-    height: 800px;
+    width: 100vh;
     margin: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -19,7 +21,7 @@
 
 #bigContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 h2 {
@@ -39,15 +41,15 @@ p {
 }
 
 #firstImg {
-    padding-left: 5%;
+    margin-left: 5%;
 }
 
 #secondImg {
-    padding-left: 35%;
+    margin-left: 35%;
 }
 
 #thirdImage {
-    padding-left: 65%;
+    margin-left: 65%;
 }
 
 @media screen and (max-width: 500px) {
@@ -71,15 +73,15 @@ p {
     }
 
     #firstImg {
-        padding-left: 5%;
+        margin-left: 5%;
     }
     
     #secondImg {
-        padding-left: 5%;
+        margin-left: 5%;
     }
     
     #thirdImage {
-        padding-left: 5%;
+        margin-left: 5%;
     }
 
 }
