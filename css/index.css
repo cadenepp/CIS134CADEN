@@ -7,10 +7,12 @@
 
 #HeaderImage {
     width: 100vh;
-    margin: none;
+    max-width: 100%;
+    object-fit: contain;
+    /*margin: none;*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    /*margin-right: auto;*/
 }
 
 
@@ -53,10 +55,10 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-    #HeaderImage {
-        width: 500px;
-        height: 300px;
-    }
+    /*#HeaderImage {*/
+    /*    width: 500px;*/
+    /*    height: 300px;*/
+    /*}*/
 
     h2 {
         padding: 5%;
