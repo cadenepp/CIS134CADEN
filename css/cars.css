@@ -37,6 +37,10 @@ iframe {
     margin: auto;
 }
 
+img {
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 500px) {
     #carsIndoArea {
         width: 100vh;
