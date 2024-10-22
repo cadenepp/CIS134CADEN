@@ -26,9 +26,48 @@
 #divP {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 iframe {
+    width: 100vh;
+    max-width: 100%;
+    object-fit: contain;
     display: block;
     margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+    #carsIndoArea {
+        width: 100vh;
+        max-width: 100%;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+
+    
+    #divImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #secondDiv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    p {
+        text-align: center
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
 }
