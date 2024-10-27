@@ -1,8 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+h1, a, h2, p {
+    font-family: SUSE;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0px;
+}
+
+a {
+    color: #fffcf2;
+    font-size: 18px;
+    background-color: #403d39;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 20%;
+    text-decoration: none;
+    font-family: Jost;
+}
+
+#banner a {
+    margin: auto;
+}
+
 #banner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-
+    border: 5px solid black;
+    background-color: #fffcf2;
 }
 
 #HeaderImage {
@@ -15,12 +50,6 @@
     /*margin-right: auto;*/
     filter: blur(5px);
 }
-
-
-#banner a {
-    padding-top: 25px;
-}
-
 
 #bigContainer {
     display: grid;
@@ -60,10 +89,6 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-    /*#HeaderImage {*/
-    /*    width: 500px;*/
-    /*    height: 300px;*/
-    /*}*/
 
     h2 {
         padding: 5%;
@@ -77,19 +102,38 @@ img {
     #imageArea {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
-    #firstImg {
-        margin-left: 5%;
+    #firstImg, #secondImg, #thirdImage  {
+        margin: auto;
     }
-    
-    #secondImg {
-        margin-left: 5%;
+
+
+    /*Banner Media*/
+
+    h1 {
+        font-size: 25px;
+        grid-row: 1;
+        grid-column: span 2;
+        padding-bottom: 10px;
     }
-    
-    #thirdImage {
-        margin-left: 5%;
+
+    a {
+        font-size: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
+
+    #banner {
+        border: 3px solid black;
+        padding: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /*End*/
 
 }
 
