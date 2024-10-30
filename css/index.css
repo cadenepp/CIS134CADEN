@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: #ccc5b9;
 }
 
 h1, a, h2, p {
@@ -56,24 +57,34 @@ a {
     grid-template-columns: 1fr 2fr;
 }
 
+#paraContainer {
+    background-color: #403d39;
+    color: #fffcf2;
+    padding: 25px;
+}
+
 h2 {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 25px;
+    font-size: 55px;
 }
 
 p {
     text-align: center;
     padding: 1.5%;
+    font-size: 20px;
 }
 
 #imageArea {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: max-content;
     
 }
 
 #firstImg {
     margin-left: 5%;
+    padding-top: 15px;
 }
 
 #secondImg {
@@ -82,6 +93,7 @@ p {
 
 #thirdImage {
     margin-left: 65%;
+    padding-bottom: 15px;
 }
 
 img {
@@ -107,6 +119,7 @@ img {
 
     #firstImg, #secondImg, #thirdImage  {
         margin: auto;
+        padding-top: 15px;
     }
 
 
