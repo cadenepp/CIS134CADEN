@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,100..900&display=swap');
 
 body {
-    margin: 0;
+    margin: 0.5;
     background-color: #ccc5b9;
 }
 
@@ -85,15 +85,18 @@ p {
 #firstImg {
     margin-left: 5%;
     padding-top: 15px;
+    width: 300px;
 }
 
 #secondImg {
     margin-left: 35%;
+    width: 300px;
 }
 
 #thirdImage {
     margin-left: 65%;
     padding-bottom: 15px;
+    width: 300px;
 }
 
 img {
